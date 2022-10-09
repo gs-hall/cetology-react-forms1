@@ -1,0 +1,35 @@
+div.color-form {
+  width: 90vw;
+  height: 90vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form.color-form {
+  display: block;
+  width: 300px;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-align: center;
+  background: #ffffff;
+}
+
+input.color-form {
+  width: 100%;
+  background-color: #d1d1d1;
+  border: 0;
+  font-size: 2rem;
+}
+
+p.color-form {
+  background: #d1d1d1;
+  font-size: 2rem;
+}
+
+p.error {
+  background: #c44f4f;
+}
