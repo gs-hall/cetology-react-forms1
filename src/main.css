@@ -1,35 +1,31 @@
 div.color-form {
-  width: 90vw;
-  height: 90vh;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 50%;
+  transform: translate(-50%, -50%);
 }
 
-form.color-form {
-  display: block;
-  width: 300px;
+.color-form form {
+  width: 100%;
   border-radius: 8px;
   padding: 1rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  text-align: center;
-  background: #ffffff;
+  background-color: #ffffff;
 }
 
-input.color-form {
+.color-form form input {
   width: 100%;
   background-color: #d1d1d1;
   border: 0;
   font-size: 2rem;
 }
 
-p.color-form {
-  background: #d1d1d1;
+.color-form form p {
+  background-color: #d1d1d1;
   font-size: 2rem;
 }
 
-p.error {
-  background: #c44f4f;
+.color-form form p.error {
+  background-color: #c44f4f;
 }
